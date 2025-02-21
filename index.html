@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="./assets/icon-white2.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="/style.css">
+  <title>25:00-Time to focus!</title>
+</head>
+<body>
+  <header class="header container">
+    <div>
+      <a href="../index.html">
+        <h1><img src="./assets/icon-white2.png" alt="logo"> Pomofocus</h1>
+      </a>
+    </div>
+    <div class="buttons">
+      <button class="report"> <img src="./assets/graph-white.png" alt="report">Report</button>
+      <button class="settings"> <img src="./assets/config-white.png" alt="settings">Settings</button>
+      <button class="signin"> <img src="./assets/user-white.png" alt="signin">Sign in</button>
+      <button class="time"><img src="./assets/threedots-white.png" alt="threedots-white"></button>
+    </div>
+  </header>
+  <main>
+    <div class="container border_div"></div>
+  </main>
+  <section class="countdown-container">
+    <input type="number"  id="countdown" value="25" min="0" >
+  </section>
+ <div class="parent container">
+  <section>
+    <div class="container">
+      <div class="button">
+        <a href="./index.html">
+          <button class="pomodoro">Pomodoro</button>
+        </a>
+        <a href="./html/short.html">
+          <button class="short">Short Break</button>
+        </a>
+        <a href="./html/long.html">
+          <button class="long">Long Break</button>
+        </a>
+      </div>
+      
+ 
+
+  <section class="timer-container">
+    <div class="time" id="timeDisplay">
+      <span class="timer" id="minute">00</span>
+      <span class="colon">:</span>
+      <span class="timer" id="second">00</span>
+    </div>
+  </section>
+
+  <section class="buttonss">
+    <button id="start" aria-label="Start Timer">Start</button>
+    <button id="stop" aria-label="Stop Timer">Stop</button>
+  </section>
+ </div>
+
+    <div>
+  </section>
+  <script src="./js/script.js" type="module"></script>
+</body>
+</html>
