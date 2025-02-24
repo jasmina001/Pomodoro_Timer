@@ -27,11 +27,4 @@ function counter() {
     isRunning = false;
   }
 }
-function updateDisplay() {
-  let secs = String(totalSeconds % 60).padStart(2, '0');
-  let mins = String(Math.floor(totalSeconds % 3600 / 60)).padStart(2, '0'); 
-
-  second.textContent = secs;
-  minute.textContent = mins;
-}
 
